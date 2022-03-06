@@ -211,6 +211,203 @@ double r1[7][2];
 const int test_list2[7] = { 1<<14,1<<15,1<<16,1<<17,1<<18,1<<19,1<<20 };
 double r2[7][20];
 
+void task310()
+{
+	int arg = test_list1[0];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task320()
+{
+	int arg = test_list1[0];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}	
+}
+void task311()
+{
+	int arg = test_list1[1];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task321()
+{
+	int arg = test_list1[1];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}		
+}
+void task312()
+{
+	int arg = test_list1[2];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task322()
+{
+	int arg = test_list1[2];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}	
+}
+void task313()
+{
+	int arg = test_list1[3];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task323()
+{
+	int arg = test_list1[3];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}	
+}
+void task314()
+{
+	int arg = test_list1[4];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task324()
+{
+	int arg = test_list1[4];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}	
+}
+void task315()
+{
+	int arg = test_list1[5];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task325()
+{
+	int arg = test_list1[5];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}	
+}
+void task316()
+{
+	int arg = test_list1[6];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int i = 0; i < n; i++)
+			for(int j = 0; j < n; j++)
+				p[i] += b[j] * a[j][i];
+	}
+}
+void task326()
+{
+	int arg = test_list1[6];
+	int times = std::min(1000, tot / (arg*arg));
+	int n = arg;
+	while(times--)
+	{
+		for(int i = 0; i < n; i++)
+			p[i] = 0;
+		for(int j = 0; j < n; j++)
+			for(int i = 0; i < n; i++)
+				p[i] += b[j] * a[j][i];
+	}		
+}
+
 void task1()
 {
 	for(int i = 0; i < 7; i++)
@@ -240,6 +437,16 @@ void task2()
 		r2[i][10] = run(task248, arg, times) / times;
 		r2[i][11] = run(task2416, arg, times) / times;
 	}
+}
+void task3()
+{
+	task310(); task320();
+	task311(); task321();
+	task312(); task322();
+	task313(); task323();
+	task314(); task324();
+	task315(); task325();
+	task316(); task326();
 }
 
 void generate()
@@ -273,6 +480,7 @@ int main()
 	
 	task1();
 	task2();
+	task3();
 	
 	print();
 	
